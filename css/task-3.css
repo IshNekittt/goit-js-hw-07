@@ -32,3 +32,15 @@ h1 {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+#name-input:hover {
+  border-color: #000000;
+}
+
+#name-input::placeholder {
+  color: transparent;
+}
+
+#name-input:focus::placeholder {
+  color: #2e2f42;
+}

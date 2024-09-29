@@ -45,6 +45,17 @@
   padding: 8px 16px;
 }
 
+.login-form label input::placeholder {
+  color: transparent;
+}
+
+.login-form label input:hover {
+  border-color: #000000;
+}
+.login-form label input:focus::placeholder {
+  color: #2e2f42;
+}
+
 .login-form button {
   border: none;
   font-family: var(--font-family);
@@ -60,4 +71,9 @@
   width: 86px;
   height: 40px;
   cursor: pointer;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background: #6c8cff;
 }

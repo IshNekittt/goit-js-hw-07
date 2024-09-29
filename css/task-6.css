@@ -51,17 +51,25 @@ div {
   background: #4e75ff;
 }
 
+#controls button:nth-child(2):hover,
+#controls button:nth-child(2):focus {
+  background: #6c8cff;
+}
+
 #controls button:nth-child(3) {
   background: #ff4e4e;
 }
-
+#controls button:nth-child(3):hover,
+#controls button:nth-child(3):focus {
+  background: #ff7070;
+}
 #boxes {
   margin: 0 auto;
   padding: 32px 28px;
   display: flex;
   flex-wrap: wrap;
   gap: 44px;
-  max-width: 486px;
+  min-width: 486px;
 }
 
 #boxes div {
