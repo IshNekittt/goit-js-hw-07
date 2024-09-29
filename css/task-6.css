@@ -1,0 +1,70 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+div {
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: fit-content;
+}
+
+#controls {
+  font-family: var(--font-family);
+  text-align: center;
+  margin: 24px auto 16px;
+  display: flex;
+  gap: 16px;
+  max-width: 486px;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 0;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls button:nth-child(2) {
+  background: #4e75ff;
+}
+
+#controls button:nth-child(3) {
+  background: #ff4e4e;
+}
+
+#boxes {
+  margin: 0 auto;
+  padding: 32px 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  max-width: 486px;
+}
+
+#boxes div {
+  padding: 0;
+  border-radius: 0;
+}
